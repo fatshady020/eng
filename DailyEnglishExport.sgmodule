@@ -4,4 +4,4 @@ DailyEnglishExport = type=http-request,pattern=^https?:\/\/.*\.eudic\.net\/,scri
 enable-scripting=true
 
 [MITM]
-hostname = *.eudic.net
+hostname = *.eudic.net, *.tingdaily.com
