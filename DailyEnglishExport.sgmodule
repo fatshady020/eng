@@ -1,0 +1,7 @@
+[Script]
+DailyEnglishExport = type=http-request,pattern=^https?:\/\/.*\.eudic\.net\/,script-path=https://raw.githubusercontent.com/fatshady020
+/eng/main/export.js,requires-body=1
+enable-scripting=true
+
+[MITM]
+hostname = *.eudic.net
